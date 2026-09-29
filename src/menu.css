@@ -1,0 +1,24 @@
+.menu-section {
+    background-color: white;
+    height: 1000px;
+}
+
+.menu-header {
+    background-color: rgb(37, 37, 37);
+}
+
+.menu-card {
+    border: 1px solid red;
+    width: 300px;
+}
+
+.menu-card h1 {
+    font-size: 45px;
+}
+
+.ul-card {
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
