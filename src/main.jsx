@@ -1,10 +1,9 @@
-import { StrictMode } from 'react'
+// import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 import './index.css'
-import App from './App.jsx'
-import Menu from './menu.jsx';
-import Start from './start.jsx';
+import Menu from './menu';
+import './Cards.css'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
