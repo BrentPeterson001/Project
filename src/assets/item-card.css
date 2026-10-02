@@ -1,0 +1,44 @@
+.card-header {
+ border-bottom: solid 1px gainsboro;
+ padding: 0 50px;
+}
+
+.card-header h2 {
+    margin: 20px 0;
+}
+
+.card-header h1 {
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.photo-border {
+    margin: 0 32%;
+    padding: 20px;
+    background-color: #e7e7e7;
+    border-radius: 20px;
+}
+
+.photo img {
+    height: 250px;
+    border-radius: 20px;
+}
+
+.photo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.photo-rate {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.photo-rate h4 {
+    margin: 0;
+    font-size: 25px;
+    color: black;
+}

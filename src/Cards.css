@@ -21,6 +21,7 @@
 .card h1 {
     margin: 10px 0;
     font-size: 25px;
+    color: #1c1c1c;
 }
 
 .card p {
@@ -34,10 +35,15 @@
     margin-bottom: -270px;
     margin-left: 160px;
     color: white;
-    background-color: #ca6b2f;
+    background-color: #c67c4e;
     border: 0;
     border-radius: 10px;
     font-size: 25px;
+}
+
+.card-off {
+    background-color: #e5e5e5;
+    color: #1c1c1c;
 }
 
 .card-filter {
@@ -54,11 +60,17 @@
 
 .card-filter button.active {
     color: whitesmoke;
-    background-color: #ca6b2f;
+    background-color: #c67c4e;
 }
 
 .menu-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+}
+
+.link-card {
+    display: block;
+    text-decoration: none;
+    color: #a7a7a7;
 }
