@@ -5,14 +5,17 @@ import './index.css'
 import './Cards.css'
 import Menu from './menu';
 import Mocha from './assets/cf-mocha';
-import Test from './test';
+import { ThemeProvider } from './ThemeContext';
+import './themes.css'
+
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Routes>
-      <Route path="" element={<Menu />} />
-      <Route path="mocha" element={<Mocha />} />
-      <Route path="test" element={<Test />}/>
-    </Routes>
+    <ThemeProvider>
+      <Routes>
+        <Route path="" element={<Menu />} />
+        <Route path="mocha" element={<Mocha />} />
+      </Routes>
+    </ThemeProvider>
   </BrowserRouter>,
 )
